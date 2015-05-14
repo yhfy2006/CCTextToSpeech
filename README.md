@@ -5,14 +5,14 @@ CCTextToSpeech是一个轻量级的文字音频转换框架。此框架使用goo
 
 Required framework: AVFoundation.framework;
 
-Example useage:
+**Example useage:**
 ```objc
 CCTextToSpeech * t2p = [CCTextToSpeech sharedInstance];
 t2p.delegate = self;
 [t2p startPlayWithLanguage:EN andText:@"Hi,what's up"];
 ```
 
-Optional delegates:
+**Optional delegates:**
 ```objc
 -(void)CCTextToSpeechStarted;
 -(void)CCTextToSpeechDidGetError:(NSError*)error;
@@ -20,7 +20,7 @@ Optional delegates:
 -(void)CCTextToSpeechEnded;
 ```
 
-all suppported languages：
+**all suppported languages：**
 所有支持的语言：
 
 ```
