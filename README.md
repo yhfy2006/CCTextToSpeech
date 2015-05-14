@@ -3,6 +3,8 @@ CCTextToSpeech is a very ligte wight freamwork that converts your text to speech
 
 CCTextToSpeech是一个轻量级的文字音频转换框架。此框架使用google的TTS服务。
 
+Required framework: AVFoundation.framework;
+
 Example useage:
 ```objc
 CCTextToSpeech * t2p = [CCTextToSpeech sharedInstance];
