@@ -20,7 +20,7 @@ t2p.delegate = self;
 -(void)CCTextToSpeechEnded;
 ```
 
-**all suppported languages：**
+**All suppported languages：**
 所有支持的语言：
 
 ```
