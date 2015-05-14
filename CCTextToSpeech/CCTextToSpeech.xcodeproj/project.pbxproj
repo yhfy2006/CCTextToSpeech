@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC201C611B0558A20087B3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC201C601B0558A20087B3DA /* main.m */; };
+		FC201C641B0558A20087B3DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC201C631B0558A20087B3DA /* AppDelegate.m */; };
+		FC201C671B0558A20087B3DA /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC201C661B0558A20087B3DA /* ExampleViewController.m */; };
+		FC201C6A1B0558A20087B3DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC201C681B0558A20087B3DA /* Main.storyboard */; };
+		FC201C6C1B0558A20087B3DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC201C6B1B0558A20087B3DA /* Images.xcassets */; };
+		FC201C6F1B0558A20087B3DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC201C6D1B0558A20087B3DA /* LaunchScreen.xib */; };
+		FC201C7B1B0558A20087B3DA /* CCTextToSpeechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC201C7A1B0558A20087B3DA /* CCTextToSpeechTests.m */; };
+		FC201C861B0558D60087B3DA /* CCTextToSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = FC201C851B0558D60087B3DA /* CCTextToSpeech.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC201C751B0558A20087B3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC201C531B0558A20087B3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC201C5A1B0558A20087B3DA;
+			remoteInfo = CCTextToSpeech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC201C5B1B0558A20087B3DA /* CCTextToSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTextToSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC201C5F1B0558A20087B3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC201C601B0558A20087B3DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC201C621B0558A20087B3DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC201C631B0558A20087B3DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC201C651B0558A20087B3DA /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		FC201C661B0558A20087B3DA /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		FC201C691B0558A20087B3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC201C6B1B0558A20087B3DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC201C6E1B0558A20087B3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC201C741B0558A20087B3DA /* CCTextToSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTextToSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC201C791B0558A20087B3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC201C7A1B0558A20087B3DA /* CCTextToSpeechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTextToSpeechTests.m; sourceTree = "<group>"; };
+		FC201C841B0558D60087B3DA /* CCTextToSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTextToSpeech.h; sourceTree = "<group>"; };
+		FC201C851B0558D60087B3DA /* CCTextToSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTextToSpeech.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC201C581B0558A20087B3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC201C711B0558A20087B3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC201C521B0558A20087B3DA = {
+			isa = PBXGroup;
+			children = (
+				FC201C5D1B0558A20087B3DA /* CCTextToSpeech */,
+				FC201C771B0558A20087B3DA /* CCTextToSpeechTests */,
+				FC201C5C1B0558A20087B3DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC201C5C1B0558A20087B3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC201C5B1B0558A20087B3DA /* CCTextToSpeech.app */,
+				FC201C741B0558A20087B3DA /* CCTextToSpeechTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC201C5D1B0558A20087B3DA /* CCTextToSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				FC201C621B0558A20087B3DA /* AppDelegate.h */,
+				FC201C631B0558A20087B3DA /* AppDelegate.m */,
+				FC201C651B0558A20087B3DA /* ExampleViewController.h */,
+				FC201C661B0558A20087B3DA /* ExampleViewController.m */,
+				FC201C841B0558D60087B3DA /* CCTextToSpeech.h */,
+				FC201C851B0558D60087B3DA /* CCTextToSpeech.m */,
+				FC201C681B0558A20087B3DA /* Main.storyboard */,
+				FC201C6B1B0558A20087B3DA /* Images.xcassets */,
+				FC201C6D1B0558A20087B3DA /* LaunchScreen.xib */,
+				FC201C5E1B0558A20087B3DA /* Supporting Files */,
+			);
+			path = CCTextToSpeech;
+			sourceTree = "<group>";
+		};
+		FC201C5E1B0558A20087B3DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC201C5F1B0558A20087B3DA /* Info.plist */,
+				FC201C601B0558A20087B3DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC201C771B0558A20087B3DA /* CCTextToSpeechTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC201C7A1B0558A20087B3DA /* CCTextToSpeechTests.m */,
+				FC201C781B0558A20087B3DA /* Supporting Files */,
+			);
+			path = CCTextToSpeechTests;
+			sourceTree = "<group>";
+		};
+		FC201C781B0558A20087B3DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC201C791B0558A20087B3DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC201C5A1B0558A20087B3DA /* CCTextToSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC201C7E1B0558A20087B3DA /* Build configuration list for PBXNativeTarget "CCTextToSpeech" */;
+			buildPhases = (
+				FC201C571B0558A20087B3DA /* Sources */,
+				FC201C581B0558A20087B3DA /* Frameworks */,
+				FC201C591B0558A20087B3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCTextToSpeech;
+			productName = CCTextToSpeech;
+			productReference = FC201C5B1B0558A20087B3DA /* CCTextToSpeech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC201C731B0558A20087B3DA /* CCTextToSpeechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC201C811B0558A20087B3DA /* Build configuration list for PBXNativeTarget "CCTextToSpeechTests" */;
+			buildPhases = (
+				FC201C701B0558A20087B3DA /* Sources */,
+				FC201C711B0558A20087B3DA /* Frameworks */,
+				FC201C721B0558A20087B3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC201C761B0558A20087B3DA /* PBXTargetDependency */,
+			);
+			name = CCTextToSpeechTests;
+			productName = CCTextToSpeechTests;
+			productReference = FC201C741B0558A20087B3DA /* CCTextToSpeechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC201C531B0558A20087B3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = com.Changchen;
+				TargetAttributes = {
+					FC201C5A1B0558A20087B3DA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FC201C731B0558A20087B3DA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FC201C5A1B0558A20087B3DA;
+					};
+				};
+			};
+			buildConfigurationList = FC201C561B0558A20087B3DA /* Build configuration list for PBXProject "CCTextToSpeech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC201C521B0558A20087B3DA;
+			productRefGroup = FC201C5C1B0558A20087B3DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC201C5A1B0558A20087B3DA /* CCTextToSpeech */,
+				FC201C731B0558A20087B3DA /* CCTextToSpeechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC201C591B0558A20087B3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC201C6A1B0558A20087B3DA /* Main.storyboard in Resources */,
+				FC201C6F1B0558A20087B3DA /* LaunchScreen.xib in Resources */,
+				FC201C6C1B0558A20087B3DA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC201C721B0558A20087B3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC201C571B0558A20087B3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC201C671B0558A20087B3DA /* ExampleViewController.m in Sources */,
+				FC201C861B0558D60087B3DA /* CCTextToSpeech.m in Sources */,
+				FC201C641B0558A20087B3DA /* AppDelegate.m in Sources */,
+				FC201C611B0558A20087B3DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC201C701B0558A20087B3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC201C7B1B0558A20087B3DA /* CCTextToSpeechTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC201C761B0558A20087B3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC201C5A1B0558A20087B3DA /* CCTextToSpeech */;
+			targetProxy = FC201C751B0558A20087B3DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC201C681B0558A20087B3DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC201C691B0558A20087B3DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC201C6D1B0558A20087B3DA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC201C6E1B0558A20087B3DA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC201C7C1B0558A20087B3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC201C7D1B0558A20087B3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC201C7F1B0558A20087B3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCTextToSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC201C801B0558A20087B3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCTextToSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC201C821B0558A20087B3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CCTextToSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTextToSpeech.app/CCTextToSpeech";
+			};
+			name = Debug;
+		};
+		FC201C831B0558A20087B3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CCTextToSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTextToSpeech.app/CCTextToSpeech";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC201C561B0558A20087B3DA /* Build configuration list for PBXProject "CCTextToSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC201C7C1B0558A20087B3DA /* Debug */,
+				FC201C7D1B0558A20087B3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC201C7E1B0558A20087B3DA /* Build configuration list for PBXNativeTarget "CCTextToSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC201C7F1B0558A20087B3DA /* Debug */,
+				FC201C801B0558A20087B3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC201C811B0558A20087B3DA /* Build configuration list for PBXNativeTarget "CCTextToSpeechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC201C821B0558A20087B3DA /* Debug */,
+				FC201C831B0558A20087B3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC201C531B0558A20087B3DA /* Project object */;
+}
